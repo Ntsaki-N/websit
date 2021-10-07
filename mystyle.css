@@ -1,0 +1,49 @@
+body, html {view
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/pic1.jpeg");
+  min-height: 75%;
+}
+
+.navbar{
+  width: 860px;
+  margin: 0 auto;
+}
+
+.navbar ul{
+  list-style:none;
+  margin-top: 2%;
+
+}
+
+.navbar ul li{
+  background: #262626;
+  width: 100px;
+  border: 1px solid #fff;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  font-family:fantasy;
+
+}
+
+.navbar ul li:hover{
+  background: crimson;
+}
+
+.navbar ul ul{
+    display: none;
+}
+
+.navbar ul li:hover > ul{
+  display: block;
+}
